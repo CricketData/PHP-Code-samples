@@ -2,7 +2,7 @@
     $matchList   = array();
     $apikey      = "%APIKEY%";
     $id          = "7e47dce6-f086-469d-81b0-54c04e56ca61";
-    $json_result = file_get_contents('https://api.cricapi.com/v1/series_info?apikey='.$apikey.'&offset=0&id='.$id);
+    $json_result = file_get_contents('https://api.cricapi.com/v1/series?apikey=$apikey=0&search=);
     $series_search_data = json_decode($json_result);
     if($series_search_data->status != "success") {
         die("FAILED TO GET A SUCCESS RESULT");
