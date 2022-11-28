@@ -6,7 +6,5 @@
 4. Install axios libraby for call api for install the lib command line is npm i axios
 5. Run the code from the command line
 
-To try out the Player Search code sample: 
-```
-php playerSearchcmd.php
+
 ```
